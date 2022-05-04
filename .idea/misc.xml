@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/drawable/borde_button.xml" value="0.1" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/drawable/fondo_degradado.xml" value="0.1" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/drawable/side_nav_bar.xml" value="0.2035" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/drawable/sol.xml" value="0.1" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/activity_splash.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/activity_verpelicula.xml" value="0.18385416666666668" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/app_bar_main.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/content_main.xml" value="0.15" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_calculadora.xml" value="0.22" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_camara.xml" value="0.25" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_canciones.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_canciones_escogida.xml" value="0.33" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_descripcion.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_fragment1.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_fragment2.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_fragmento3.xml" value="0.5" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_gallery.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_home.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_maps.xml" value="0.25" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_maravilla.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_maravillasantiguas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_maravillasmodernas.xml" value="0.25" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_peliculas.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_slideshow.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/fragment_verpelicula.xml" value="0.14719202898550723" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/layout/nav_header_main.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/menu/activity_main_drawer.xml" value="0.3605128205128205" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/menu/main.xml" value="0.3490740740740741" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.196" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1965" />
+        <entry key="..\:/Users/PC-1/AndroidStudioProjects/nda1/app/src/main/res/xml/file_paths.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

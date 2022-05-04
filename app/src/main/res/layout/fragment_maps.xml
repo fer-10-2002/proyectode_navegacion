@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@+id/ml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/fragment_maps_xml_constraintlayout_scene">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="359dp"
+            android:layout_height="347dp"
+
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="0dp">
+
+        </fragment>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="361dp"
+            android:layout_height="167dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="564dp">
+
+            <TextView
+                android:id="@+id/textViewmara1"
+                android:layout_width="316dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/athleticoutfit" />
+
+            <ImageView
+                android:id="@+id/imageViewmara1"
+                android:layout_width="281dp"
+                android:layout_height="wrap_content"
+                tools:src="@tools:sample/avatars" />
+        </LinearLayout>
+        >
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/calculadora"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="calculadora" />
+        <item
+            android:id="@+id/canciones"
+            android:icon="@drawable/ic_baseline_library_music_24"
+            android:title="musica" />
+        <item
+            android:id="@+id/camara"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="camara" />
+        <item
+            android:id="@+id/peliculas"
+            android:icon="@drawable/ic_peliculas"
+            android:title="peliculas" />
+        <item
+            android:id="@+id/maravillasantiguas"
+            android:icon="@drawable/antiguo"
+            android:title="maravillas antiguas" />
+        <item
+            android:id="@+id/maravillasmodernas"
+            android:icon="@drawable/macchupicchuicon"
+            android:title="maravillas modernas" />
+        <item
+            android:id="@+id/mapsFragment"
+            android:icon="@drawable/ic_map"
+            android:title="mapa" />
+
+    </group>
+</menu>

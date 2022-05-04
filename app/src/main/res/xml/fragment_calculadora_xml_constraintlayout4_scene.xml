@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/tableLayout8"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="380dp"
+            android:layout_height="169dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.439"
+            motion:layout_constraintHorizontal_bias="0.645"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="378dp"
+            android:layout_height="226dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.95"
+            motion:layout_constraintHorizontal_bias="0.47"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout6"
+            motion:layout_editor_absoluteX="-2dp" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="382dp"
+            android:layout_height="70dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.635"
+            motion:layout_constraintHorizontal_bias="0.655"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/tableLayout7" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/tableLayout8"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="382dp"
+            android:layout_height="1dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.439"
+            motion:layout_constraintHorizontal_bias="0.645"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            motion:layout_constraintVertical_bias="0.051"
+            android:layout_height="320dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.433"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="353dp"
+            android:id="@+id/txtResultado" />
+        <Constraint
+            motion:layout_constraintVertical_bias="0.834"
+            android:layout_height="218dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.684"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="386dp"
+            android:id="@+id/linearLayout6" />
+        <Constraint
+            motion:layout_constraintVertical_bias="0.534"
+            android:layout_height="70dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.826"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="382dp"
+            android:id="@+id/tableLayout7" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nda1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/calculadora"
+        android:name="com.example.nda1.calculadora"
+        android:label="Calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/canciones"
+        android:name="com.example.nda1.canciones"
+        android:label="Generos"
+        tools:layout="@layout/fragment_canciones" >
+        <action
+            android:id="@+id/action_canciones_to_canciones_escogida"
+            app:destination="@id/canciones_escogida" />
+    </fragment>
+    <fragment
+        android:id="@+id/canciones_escogida"
+        android:name="com.example.nda1.canciones_escogida"
+        android:label="Canciones"
+        tools:layout="@layout/fragment_canciones_escogida" />
+    <fragment
+        android:id="@+id/camara"
+        android:name="com.example.nda1.camara"
+        android:label="Camara"
+        tools:layout="@layout/fragment_camara" />
+    <fragment
+        android:id="@+id/peliculas"
+        android:name="com.example.nda1.peliculas"
+        android:label="Peliculas"
+        tools:layout="@layout/fragment_peliculas" >
+        <action
+            android:id="@+id/action_peliculas_to_descripcion"
+            app:destination="@id/descripcion" />
+    </fragment>
+    <fragment
+        android:id="@+id/descripcion"
+        android:name="com.example.nda1.descripcion"
+        android:label="Descripcion pelicula"
+        tools:layout="@layout/fragment_descripcion" />
+    <fragment
+        android:id="@+id/maravillasantiguas"
+        android:name="com.example.nda1.maravillasantiguas"
+        android:label="Maravillas Antiguas"
+        tools:layout="@layout/fragment_maravillasantiguas" />
+    <fragment
+        android:id="@+id/maravillasmodernas"
+        android:name="com.example.nda1.maravillasmodernas"
+        android:label="Maravillas Modernas"
+        tools:layout="@layout/fragment_maravillasmodernas" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.nda1.MapsFragment"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_maravilla"
+            app:destination="@id/maravilla" />
+    </fragment>
+    <fragment
+        android:id="@+id/maravilla"
+        android:name="com.example.nda1.maravilla"
+        android:label="Maravilla Moderna"
+        tools:layout="@layout/fragment_maravilla" />
+
+
+</navigation>
